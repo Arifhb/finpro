@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width. initial-scale=1">
+	<title>
+		DEVid Belajar Front-End Developer
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/courses.css">
+</head>
+<body>
+
+	<!-- Items -->
+	<section id="header">
+		<div class="container">
+			<img src="img/comp-4.png" class="logo">
+			<div class="header-text">
+				<h1>Free Module by Codecademy</h1>
+				<span class="square"></span>
+				<p>Learn HTML_ Cheatsheet _ DEVid _ supported by <a href="codecademy.com">Codecademy.com</p><br>
+					<span class="line-4"></span>
+				</div>
+		<iframe src="module/html" width="1000px" height="450px"></iframe>
+		<br><br><br>
+		<a href="html-courses.html"> <button class="common-btn">Back</button></a>
+		<a href="html-module.html"> <button class="next-btn">Next</button></a><br><br>
+		<div class="line">
+					<span class="line-1"></span><br>
+					<span class="line-2"></span><br>
+					<span class="line-3"></span>
+				</div>
+
+	<!-- Nav -->
+	</section>
+
+
+	<nav id="sideNav">
+		<ul>
+			<li><a href="index.html #header">HOME</a></li>
+			<li><a href="index.html #about">ABOUT US</a></li>
+			<li><a href="index.html #features">FEATURES</a></li>
+			<li><a href="index.html #courses">COURSES</a></li>
+			<!-- <li><a href="#offer">OFFER</a></li> -->
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	</nav>
+	<img src="img/menu.png" id="menuBtn">
+
+
+	<!-- Footer -->
+
+	<!-- <section id="footer-6">
+		<div class="container footer-row">
+			<hr>
+			<div class="footer-left-col">
+				<div class="footer-links">
+					<div class="link-title">
+						<h4>Product</h4>
+						<small>Our Plan</small><br>
+						<small>Free Trial</small>
+					</div>
+					<div class="link-title">
+						<h4>About Us</h4>
+						<small>Request Demo</small><br>
+						<small>FAQs</small>
+					</div>
+					<div class="link-title">
+						<h4>Explore</h4>
+						<small>Find a nonprofit</small><br>
+						<small>Corporate Solution</small>
+					</div>
+				</div>
+			</div>
+			<div class="footer-right-col">
+				<div class="footer-info">
+					<div class="copyright-text">
+						<small>alvinpradana14@gmail.com</small><br>
+						<small>copyright 2020</small>
+					</div>
+					<div class="footer-logo">
+						<img src="img/logo.png">
+						<button class="common-btn">English</button>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+
+	<!-- Social-Icons -->
+
+	<div class="social-icons">
+		<img src="img/facebook.png">
+		<img src="img/instagram.png">
+		<img src="img/twitter.png">
+		<img src="img/linkedin.png">
+	</div>
+
+	<script type="text/javascript">
+		var menuBtn = document.getElementById("menuBtn");
+		var sideNav = document.getElementById("sideNav");
+
+		sideNav.style.right = "-250px";
+		menuBtn.onclick = function(){
+			if (sideNav.style.right == "-250px") {
+				sideNav.style.right = "0";
+			}
+			else {
+				sideNav.style.right = "-250px";
+			}
+		}
+	</script>
+</body>
+</html>

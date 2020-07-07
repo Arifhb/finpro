@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width. initial-scale=1">
+	<title>
+		DEVid Belajar Front-End Developer
+	</title>
+	<link rel="stylesheet" type="text/css" href="courses.css">
+</head>
+<body>
+
+
+	<!-- Items -->
+
+	<section id="header">
+		<div class="container">
+			<img src="img/css.png" class="logo">
+			<div class="header-text">
+				<h1>Selectors and Visual Rules </h1>
+				<span class="square"></span>
+				<p>Learn CSS_ Selectors and Visual Rules Cheatsheet _ DEVid</p>
+				<button class="common-btn">Read More</button>
+				<div class="line">
+					<span class="line-4"></span>
+				</div>
+
+				<h1> The Box Model</h1>
+				<span class="square"></span>
+				<p>Learn CSS_  The Box Model Cheatsheet _ DEVid</p>
+				<button class="common-btn">Read More</button>
+				<div class="line">
+					<span class="line-4"></span>
+				</div>
+
+				<h1>Display and Positioning</h1>
+				<span class="square"></span>
+				<p>Learn CSS_ Display and Positioning Cheatsheet _ DEVid</p>
+				<button class="common-btn">Read More</button>
+				<div class="line">
+					<span class="line-4"></span>
+				</div>
+
+				<h1>Colors</h1>
+				<span class="square"></span>
+				<p>Learn CSS_ Colors Cheatsheet _ DEVid</p>
+				<button class="common-btn">Read More</button><div class="line">
+					<span class="line-4"></span>
+				</div>
+
+				<h1>Typography</h1>
+				<span class="square"></span>
+				<p>Learn CSS_ Typography Cheatsheet _ DEVid</p>
+				<button class="common-btn">Read More</button><div class="line">
+					<span class="line-4"></span>
+				</div>
+
+				<h1>Grid</h1>
+				<span class="square"></span>
+				<p>Learn CSS_ Grid Cheatsheet _ DEVid</p>
+				<button class="common-btn">Read More</button><div class="line">
+					<span class="line-4"></span>
+				</div>
+				<div class="line">
+					<span class="line-1"></span><br>
+					<span class="line-2"></span><br>
+					<span class="line-3"></span>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<a href="index.html #courses"><button class="common-btn">Back</button></a>
+			<!-- <a href="js-2-courses.html"><button class="next-btn">Next</button></a> -->
+		</div>
+	</section>
+
+	<nav id="sideNav">
+		<ul>
+			<li><a href="index.html #header">HOME</a></li>
+			<li><a href="index.html #about">ABOUT US</a></li>
+			<li><a href="index.html #features">FEATURES</a></li>
+			<li><a href="index.html #courses">COURSES</a></li>
+			<!-- <li><a href="#offer">OFFER</a></li> -->
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	</nav>
+	<img src="img/menu.png" id="menuBtn">
+
+
+	<!-- Footer -->
+
+	<section id="footer-4">
+		<div class="container footer-row">
+			<hr>
+			<div class="footer-left-col">
+				<div class="footer-links">
+					<div class="link-title">
+						<h4>Product</h4>
+						<small>Our Plan</small><br>
+						<small>Free Trial</small>
+					</div>
+					<div class="link-title">
+						<h4>About Us</h4>
+						<small>Request Demo</small><br>
+						<small>FAQs</small>
+					</div>
+					<div class="link-title">
+						<h4>Explore</h4>
+						<small>Find a nonprofit</small><br>
+						<small>Corporate Solution</small>
+					</div>
+				</div>
+			</div>
+			<div class="footer-right-col">
+				<div class="footer-info">
+					<div class="copyright-text">
+						<small>alvinpradana14@gmail.com</small><br>
+						<small>copyright 2020</small>
+					</div>
+					<div class="footer-logo">
+						<img src="img/idea.png">
+						<button class="common-btn">English</button>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Social-Icons -->
+
+	<div class="social-icons">
+		<img src="img/facebook.png">
+		<img src="img/instagram.png">
+		<img src="img/twitter.png">
+		<img src="img/linkedin.png">
+	</div>
+
+	<script type="text/javascript">
+		var menuBtn = document.getElementById("menuBtn");
+		var sideNav = document.getElementById("sideNav");
+
+		sideNav.style.right = "-250px";
+		menuBtn.onclick = function(){
+			if (sideNav.style.right == "-250px") {
+				sideNav.style.right = "0";
+			}
+			else {
+				sideNav.style.right = "-250px";
+			}
+		}
+	</script>
+
+</body>
+</html>
